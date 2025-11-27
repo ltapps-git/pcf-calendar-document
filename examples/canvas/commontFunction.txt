@@ -1,0 +1,30 @@
+// on change
+Set(varOutput, Calendar4.eventActions);
+Notify("Custom event fired! New value: " & varOutput);
+
+
+// Field in the dataserve
+"ltcal_title"
+"ltcal_startdate"
+"ltcal_enddate"
+"ltcal_isallday"
+"ltcal_isrecurring"
+"ltcal_recurrence"
+"ltcal_refinervalue"
+
+"ltcal_refinervalueid"
+
+"ltcal_testautonumber"
+"ltcal_testcurrency"
+"ltcal_testdateonly"
+"ltcal_testdatetime"
+"ltcal_testdropdown"
+"ltcal_testmultilines"
+"ltcal_testnumber"
+//
+
+
+// SharePoint list test
+Start
+End
+

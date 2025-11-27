@@ -1,0 +1,64 @@
+{
+    "isStaticValue": false,
+    "staticValue": [
+        {
+            "id": 1,
+            "title": "Metting room 1",
+            "bgColor": "#f70f0f",
+            "textColor": "white",
+            "refiner": 1,
+            "order": 1
+        },
+        {
+            "id": 2,
+            "title": "Metting room 2",
+            "bgColor": "#0ced35",
+            "textColor": "white",
+            "refiner": 1,
+            "order": 2
+        },
+        {
+            "id": 3,
+            "title": "Metting room 3",
+            "bgColor": "#500de2ff",
+            "textColor": "white",
+            "refiner": 1,
+            "order": 3
+        },
+        {
+            "id": 4,
+            "title": "Car 1",
+            "bgColor": "#0ced35",
+            "textColor": "white",
+            "refiner": 2,
+            "order": 4
+        },
+        {
+            "id": 5,
+            "title": "Car 2",
+            "bgColor": "",
+            "textColor": "white",
+            "refiner": 2,
+            "order": 5
+        },
+        {
+            "id": 6,
+            "title": "Car 3",
+            "bgColor": "#0c31ed",
+            "textColor": "white",
+            "refiner": 2,
+            "order": 6
+        }
+    ],
+    "dynamic": {
+        "entityName": "ltcal_refinervalues",
+        "fields": {
+            "id": "ltcal_refinervaluesid",
+            "title": "ltcal_title",
+            "bgColor": "ltcal_bgcolor",
+            "textColor": "ltcal_textcolor",
+            "refiner": "ltcal_refiner",
+            "order": "ltcal_order"
+        }
+    }
+}

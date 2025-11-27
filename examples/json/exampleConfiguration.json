@@ -1,0 +1,12 @@
+{
+    "appType": "driven",
+    "defaultView": "monthly",
+    "fiscalYearSartMonth": 1,
+    "useRefiners": true,
+    "refinerExpanded": true,
+    "isMultiLevelRefiner": true,
+    "dateFormat": "MM/DD/YYYY",
+    "timeFormat": "hh:mm A",
+    "isShowNewEvent": true,
+    "isOpenDataserveForm": true
+}

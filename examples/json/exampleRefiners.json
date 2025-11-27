@@ -1,0 +1,23 @@
+{
+    "isStaticValue": false,
+    "staticValue": [
+        {
+            "id": 1,
+            "title": "Meeting Room",
+            "order": 1
+        },
+        {
+            "id": 2,
+            "title": "Car",
+            "order": 2
+        }
+    ],
+    "dynamic": {
+        "entityName": "ltcal_refiner",
+        "fields": {
+            "id": "ltcal_refinerid",
+            "title": "ltcal_title",
+            "order": "ltcal_order"
+        }
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "isStaticValue": true,
+    "staticValue": [
+        {
+            "id": 1,
+            "title": "The Inspire Room",
+            "bgColor": "#0078d4",
+            "textColor": "white",
+            "refiner": 1,
+            "order": 1
+        },
+        {
+            "id": 2,
+            "title": "Successful Meetings",
+            "bgColor": "#a4373a",
+            "textColor": "white",
+            "refiner": 1,
+            "order": 2
+        },
+        {
+            "id": 3,
+            "title": "On Point Success",
+            "bgColor": "#217346",
+            "textColor": "white",
+            "refiner": 1,
+            "order": 3
+        },
+        {
+            "id": 4,
+            "title": "Never Surrender",
+            "bgColor": "#d83b01",
+            "textColor": "white",
+            "refiner": 1,
+            "order": 4
+        },
+        {
+            "id": 5,
+            "title": "The Preparation Room",
+            "bgColor": "#7719aa",
+            "textColor": "white",
+            "refiner": 1,
+            "order": 5
+        },
+        {
+            "id": 6,
+            "title": "Sedan",
+            "bgColor": "#742774",
+            "textColor": "white",
+            "refiner": 2,
+            "order": 6
+        },
+        {
+            "id": 7,
+            "title": "Coupe",
+            "bgColor": "#31752f",
+            "textColor": "white",
+            "refiner": 2,
+            "order": 7
+        },
+        {
+            "id": 8,
+            "title": "Sports Car",
+            "bgColor": "#b7472a",
+            "textColor": "white",
+            "refiner": 2,
+            "order": 8
+        },
+        {
+            "id": 9,
+            "title": "Wargon",
+            "bgColor": "#6264a7",
+            "textColor": "white",
+            "refiner": 2,
+            "order": 9
+        },
+        {
+            "id": 10,
+            "title": "Minivan",
+            "bgColor": "#2b579a",
+            "textColor": "white",
+            "refiner": 2,
+            "order": 10
+        }
+    ],
+    "dynamic": {
+        "entityName": "ltcal_refinervalues",
+        "fields": {
+            "id": "ltcal_refinervaluesid",
+            "title": "ltcal_title",
+            "bgColor": "ltcal_bgcolor",
+            "textColor": "ltcal_textcolor",
+            "refiner": "ltcal_refiner",
+            "order": "ltcal_order"
+        }
+    }
+}

@@ -1,0 +1,184 @@
+{
+    "callout": {
+        "highlights": {
+            "highlightLeft": [
+                {
+                    "title": {
+                        "isStaticValue": true,
+                        "staticValue": "HighLight Left Title"
+                    },
+                    "color": {
+                        "bgColor": "red",
+                        "textColor": "#FFFFFF"
+                    },
+                    "conditionsShow": [
+                        {
+                            "field": {
+                                "name": "ltcal_isrecurring",
+                                "type": "TwoOptions"
+                            },
+                            "operator": "eq",
+                            "value": {
+                                "isStaticValue": true,
+                                "staticValue": true
+                            },
+                            "andOr": "or"
+                        },
+                        {
+                            "field": {
+                                "name": "ltcal_title",
+                                "type": "SingleLineText"
+                            },
+                            "operator": "eq",
+                            "value": {
+                                "isStaticValue": true,
+                                "staticValue": "Normal Event"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "highlightRight": [
+                {
+                    "title": {
+                        "isStaticValue": false,
+                        "dynamicField": {
+                            "name": "ltcal_title",
+                            "type": "SingleLineText"
+                        }
+                    },
+                    "color": {
+                        "bgColor": "green",
+                        "textColor": "#FFFFFF"
+                    },
+                    "conditionsShow": [
+                        {
+                            "field": {
+                                "name": "ltcal_testdateonly",
+                                "type": "DateOnly"
+                            },
+                            "operator": "gt",
+                            "value": {
+                                "isStaticValue": false,
+                                "staticValue": "2025-11-14T04:13:39.022Z",
+                                "dynamicField": {
+                                    "name": "ltcal_testdatetime",
+                                    "type": "DateAndTime"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "actionButton1": {
+            "title": "Button 1",
+            "conditionsShow": [
+                {
+                    "field": {
+                        "name": "ltcal_isrecurring",
+                        "type": "TwoOptions"
+                    },
+                    "operator": "eq",
+                    "value": {
+                        "isStaticValue": true,
+                        "staticValue": true
+                    }
+                }
+            ]
+        },
+        "actionButton2": {
+            "title": "Button 2",
+            "conditionsShow": [
+                {
+                    "field": {
+                        "name": "ltcal_testnumber",
+                        "type": "Number"
+                    },
+                    "operator": "eq",
+                    "value": {
+                        "isStaticValue": true,
+                        "staticValue": 22
+                    }
+                }
+            ]
+        },
+        "actionButton3": {
+            "title": "Button 3"
+        },
+        "actionButton4": {
+            "title": "Button 4"
+        },
+        "actionButton5": {
+            "title": "Button 5"
+        },
+        "actionButton6": {
+            "title": "Button 6"
+        },
+        "fields": [
+            {
+                "field": {
+                    "name": "ltcal_title",
+                    "type": "SingleLineText"
+                },
+                "iconName": "location"
+            },
+            {
+                "field": {
+                    "name": "ltcal_testnumber",
+                    "type": "Number"
+                },
+                "iconName": "map"
+            },
+            {
+                "field": {
+                    "name": "ltcal_testcurrency",
+                    "type": "Currency"
+                },
+                "iconName": "mail"
+            },
+            {
+                "field": {
+                    "name": "ltcal_testdateonly",
+                    "type": "DateOnly"
+                },
+                "iconName": "people"
+            },
+            {
+                "field": {
+                    "name": "ltcal_testdatetime",
+                    "type": "DateAndTime"
+                },
+                "iconName": "clock"
+            },
+            {
+                "field": {
+                    "name": "ltcal_testdropdown",
+                    "type": "OptionSet"
+                },
+                "iconName": "checkmark"
+            },
+            {
+                "field": {
+                    "name": "ltcal_testmultilines",
+                    "type": "MultiLineText"
+                },
+                "iconName": "comment"
+            },
+            {
+                "field": {
+                    "name": "ltcal_refinervalue",
+                    "type": "Lookup"
+                },
+                "iconName": "receipt"
+            },
+            {
+                "field": {
+                    "name": "createdby",
+                    "type": "Lookup"
+                },
+                "iconName": "person"
+            }
+        ]
+    }
+}

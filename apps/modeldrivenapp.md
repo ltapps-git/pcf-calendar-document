@@ -8,6 +8,10 @@ The LTAPPS Calendar PCF Control is a PowerApps Component Framework (PCF) control
 - **Entity Views**: Replace grid views with calendar views
 - **Form Subgrids**: Show related records in calendar format within a form
 
+<img src="../static/img/MDA_View_Month_HomeAndPopup.png" alt="LTAPPS Calendar in Model-Driven App" width="1000px" />
+
+*LTAPPS Calendar control in a Model-Driven App entity view with event details popup*
+
 **Prerequisites:**
 - Power Platform environment with Dataverse
 - System Administrator or System Customizer role

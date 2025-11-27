@@ -4,6 +4,10 @@ LTAPPS Calendar is a powerful and flexible PowerApps Component Framework (PCF) c
 
 Built to support Model-Driven Apps, Canvas Apps, and Custom Pages, the control delivers a modern, customizable, and highly interactive calendar experience. Whether you're managing projects, scheduling resources, or tracking company events, LTAPPS Calendar provides the tools you need for effective time management and visualization.
 
+<img src="./static/img/MDA_Form_Month_homeAndPopup.png" alt="LTAPPS Calendar in Action" width="1000px" />
+
+*LTAPPS Calendar control displaying events in month view with detailed event popup*
+
 ## Key Features
 
 - **Multi-Platform Compatibility**: Seamlessly integrates with Model-Driven Apps, Canvas Apps, and Custom Pages

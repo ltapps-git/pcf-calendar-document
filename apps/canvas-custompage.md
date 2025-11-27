@@ -10,6 +10,10 @@ The LTAPPS Calendar PCF Control is a PowerApps Component Framework (PCF) control
 - **Canvas Apps**: Standalone apps built with drag-and-drop interface
 - **Custom Pages**: Model-driven app pages with Canvas-like experience
 
+<img src="../static/img/Canvas_Month_Popup.png" alt="LTAPPS Calendar in Canvas App" width="1000px" />
+
+*LTAPPS Calendar control in a Canvas App showing month view with event details popup*
+
 **Key Features:**
 - Display events from Dataverse or collections
 - Multiple view options (month, week, day)

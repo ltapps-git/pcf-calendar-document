@@ -162,7 +162,9 @@ Conditions determine when highlights or buttons should appear. They support comp
 - `DateOnly` - Date-only fields
 - `DateAndTime` - Date and time fields
 - `OptionSet` - Choice fields
-- `Lookup` - Lookup fields
+- `Lookup` - Lookup fields (not supported in Canvas Apps and Custom Pages)
+
+> **Note:** The `Lookup` field type is only supported in Model-Driven Apps. It is **not supported** in Canvas Apps and Custom Pages.
 
 ---
 
@@ -336,8 +338,10 @@ Each field object specifies a data field to display in the callout.
 |----------|------|----------|-------------|
 | `field` | `object` | Yes | Field configuration |
 | `field.name` | `string` | Yes | Logical name of the field |
-| `field.type` | `string` | Yes | Data type of the field |
-| `iconName` | `string` | Yes | Fluent UI icon name |
+| `field.type` | `string` | Yes | Data type of the field (see supported types below) |
+| `iconName` | `string` | Yes | Icon name from the supported icons list |
+
+> **Important:** When configuring callout fields for Canvas Apps or Custom Pages, do not use `Lookup` field type as it is not supported. Use other field types like `SingleLineText`, `Number`, `DateAndTime`, etc.
 
 **Example:**
 ```json
@@ -352,26 +356,30 @@ Each field object specifies a data field to display in the callout.
 
 ### Supported Icons
 
-Common Fluent UI icon names:
+The following icon names are supported by the LTAPPS Calendar control:
 
 | Icon Name | Use Case |
 |-----------|----------|
 | `location` | Location/address fields |
 | `map` | Map references |
 | `mail` | Email addresses |
-| `people` | Attendees/participants |
-| `clock` | Time/duration |
-| `checkmark` | Status/completion |
-| `comment` | Notes/descriptions |
-| `receipt` | References/IDs |
-| `person` | Single user/owner |
-| `calendar` | Date fields |
 | `phone` | Phone numbers |
-| `tag` | Categories/tags |
-| `link` | URLs/links |
-| `info` | General information |
-
-For a complete list, see [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons).
+| `call` | Call actions or phone fields |
+| `accesstime` | Access time or time-based fields |
+| `clock` | Time/duration fields |
+| `checkmark` | Status/completion indicators |
+| `info` | General information or help text |
+| `comment` | Comments or feedback |
+| `chat` | Chat messages or discussions |
+| `note` | Notes or descriptions |
+| `person` | Single user/owner fields |
+| `contact` | Contact information |
+| `people` | Attendees/participants or groups |
+| `numberfield` | Numeric fields |
+| `calculator` | Calculation or computed fields |
+| `money` | Currency or financial fields |
+| `payment` | Payment-related fields |
+| `receipt` | References/IDs or transaction records |
 
 ---
 
@@ -472,7 +480,7 @@ For a complete list, see [Fluent UI Icons](https://developer.microsoft.com/en-us
                     "name": "ltcal_title",
                     "type": "SingleLineText"
                 },
-                "iconName": "calendar"
+                "iconName": "info"
             },
             {
                 "field": {
@@ -688,7 +696,7 @@ For a complete list, see [Fluent UI Icons](https://developer.microsoft.com/en-us
                     "name": "ltcal_title",
                     "type": "SingleLineText"
                 },
-                "iconName": "calendar"
+                "iconName": "info"
             },
             {
                 "field": {
@@ -783,21 +791,21 @@ For a complete list, see [Fluent UI Icons](https://developer.microsoft.com/en-us
                     "name": "ltcal_title",
                     "type": "SingleLineText"
                 },
-                "iconName": "calendar"
+                "iconName": "info"
             },
             {
                 "field": {
                     "name": "ltcal_estimatedvalue",
                     "type": "Currency"
                 },
-                "iconName": "receipt"
+                "iconName": "money"
             },
             {
                 "field": {
                     "name": "ltcal_probability",
                     "type": "Number"
                 },
-                "iconName": "checkmark"
+                "iconName": "calculator"
             }
         ]
     }

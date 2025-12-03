@@ -27,6 +27,7 @@ The LTAPPS Calendar PCF Control is a PowerApps Component Framework (PCF) control
 - Canvas App or Custom Page creator access
 - Basic understanding of Power Fx formulas
 - LTAPPS Calendar solution package (`.zip` file)
+- Learn more: [Power Apps component framework for canvas apps](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/component-framework-for-canvas-apps)
 
 ---
 
@@ -201,16 +202,39 @@ The LTAPPS Calendar PCF Control is a PowerApps Component Framework (PCF) control
    ```
 
    **Business Rules** ([Business Rules Guide](../configurations/bussinesRules.md))
-   ```powerfx
+   ```json
    {
-       highlights: [],
-       actionButtons: [
-           {
-               id: "actionButton1",
-               icon: "Edit",
-               label: "Edit Event"
-           }
-       ]
+       "callout": {
+           "highlights": {
+               "highlightLeft": [],
+               "highlightRight": []
+           },
+           "actionButton1": {
+               "title": "Button 1",
+               "conditionsShow": [
+                   {
+                       "field": {
+                           "name": "ltcal_isrecurring",
+                           "type": "TwoOptions"
+                       },
+                       "operator": "eq",
+                       "value": {
+                           "isStaticValue": true,
+                           "staticValue": true
+                       }
+                   }
+               ]
+           },
+           "actionButton2": {},
+           "actionButton3": {},
+           "actionButton4": {},
+           "actionButton5": {},
+           "actionButton6": {},
+           "actionButton7": {},
+           "actionButton8": {},
+           "actionButton9": {},
+           "fields": []
+       }
    }
    ```
 

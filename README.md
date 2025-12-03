@@ -4,9 +4,9 @@ LTAPPS Calendar is a powerful and flexible PowerApps Component Framework (PCF) c
 
 Built to support Model-Driven Apps, Canvas Apps, and Custom Pages, the control delivers a modern, customizable, and highly interactive calendar experience. Whether you're managing projects, scheduling resources, or tracking company events, LTAPPS Calendar provides the tools you need for effective time management and visualization.
 
-<img src="./static/img/MDA_Form_Month_homeAndPopup.png" alt="LTAPPS Calendar in Action" width="1000px" />
+[![LTAPPS Calendar PCF Control Overview](https://img.youtube.com/vi/4mFOlUdCSlg/maxresdefault.jpg)](https://youtu.be/4mFOlUdCSlg)
 
-*LTAPPS Calendar control displaying events in month view with detailed event popup*
+*Click to watch the LTAPPS Calendar control overview video*
 
 ## Key Features
 
@@ -75,6 +75,22 @@ After installation, configure the calendar control to meet your specific require
 - **[Refiners Configuration](./configurations/refiners.md)**: Enable filtering by categories or resources
 - **[Refiner Values Configuration](./configurations/refinerValues.md)**: Configure colors and values for refiners
 - **[Business Rules Configuration](./configurations/bussinesRules.md)**: Set up conditional formatting and action buttons
+
+---
+
+## License & Purchase
+
+LTAPPS Calendar PCF Control is a paid commercial product. Learn about the complete license purchase process, from selecting your plan to activating your license token.
+
+**[View License Purchase Process →](./license-purchase-process/license-purchase-process.md)**
+
+**What you'll learn:**
+- Available license plans 
+- Step-by-step purchase process
+- Payment instructions and important policies
+- How to obtain your Power Apps Environment ID
+- Token activation and verification
+- Troubleshooting and support information
 
 ---
 
